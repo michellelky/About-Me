@@ -1,0 +1,168 @@
+
+/*
+  ========================================
+  Basic
+  ========================================
+*/
+
+body {
+  color: #333;
+  line-height: 1.3;
+  font-weight: 400;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 15px;
+  color: #a3a3a3;
+  line-height: 1.6;
+  word-spacing: 1px;
+  margin: 0;
+}
+
+
+/*
+  ========================================
+  Navbar
+  ========================================
+*/
+.navbar-dark {
+  color: #f4f4f4;
+}
+
+.navbar-dark 
+  .nav-item:hover,
+  .nav-link:hover {
+    color: #F4D15F;
+}
+
+.navbar {
+	background-color: transparent;
+ 	border: none;
+ }
+
+ .solid {
+  background-color: rgba(66, 59, 39, 0.9);
+  /* transition: all 2s ease-out; */
+  /*transition: background-color 0.5s ease 0s;*/
+ }
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+.header {
+	background-image: url(../img/busan.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100vh; 
+}
+
+.overlay {
+	position: absolute;
+	 min-height: 100vh;
+	 width: 100%;
+	 left: 0;
+	 top: 0;
+	 background: rgba(0, 0, 0, 0.7);
+}
+
+.header h1 {
+	color: #f4f4f4;
+	font-weight: 700;
+}
+
+/* 
+  ========================================
+  About
+  ========================================
+*/
+.hero-img img {
+	height: 300px;
+}
+
+.hero-img img:hover {
+  filter: drop-shadow(-10px 10px 8px #a19776);
+  animation-iteration-count: infinite;
+}
+
+.hero-img {
+  padding: 50px 20px 0 0;
+}
+
+.content {
+	padding-top: 50px;
+}
+
+
+/* 
+  ========================================
+  Fact
+  ========================================
+*/
+
+#fact {
+	margin-bottom: 50px;
+}
+
+
+
+.material-icons.shape { 
+	font-size: 48px; 
+	color: #EE5622; 
+}
+
+.jello:hover {
+
+  /* allow animation to run when hovering over repeatedly */
+  animation-iteration-count: infinite;
+}
+
+/*
+  ========================================
+  Gallery
+  ========================================
+*/
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+	max-height: 50%; 
+}
+
+/*
+  ========================================
+  Contact
+  ========================================
+*/
+#contact {
+  padding: 40px 0;
+  background-color: #EDDD9E;
+}
+
+#contact h1:hover {
+  text-decoration: underline;
+}
+
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+footer {
+	padding: 10px 0 10px 25px;
+  background-color: #EDDD9E;
+}
+
+
+
