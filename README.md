@@ -14,7 +14,7 @@ The purpose of the personal website is to introduce myself and demostrate some o
 ### Implementation and Discovery
 * Transparent to solid navbar
 
-To chaange navbar color as the page scrolls past header, jQuery .scrollTop() is used to compare the header height to add and remove class.
+To change navbar color as the page scrolls past header, jQuery `.scrollTop()` is used to compare the header height to add and remove class.
 
 * Smooth scroll
 
